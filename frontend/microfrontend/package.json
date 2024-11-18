@@ -1,0 +1,19 @@
+{
+  "name": "microfrontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:auth": "cd auth && npm start",
+    "start:card": "cd card && npm start",
+    "start:host": "cd host && npm start",
+    "start:ui-kit": "cd ui-kit && npm start",
+    "start:user": "cd user && npm start",
+    "start": "npm-run-all --parallel start:auth start:card start:ui-kit start:user start:host"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}

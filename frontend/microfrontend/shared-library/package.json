@@ -1,0 +1,9 @@
+{
+  "name": "@shared-context/shared-library",
+  "version": "0.0.3",
+  "private": true,
+  "main": "src/index.js",
+  "dependencies": {
+    "react": "^18.3.1"
+  }
+}
