@@ -3,11 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "install:auth": "cd auth && npm install",
     "start:auth": "cd auth && npm start",
+    "install:card": "cd card && npm install",
     "start:card": "cd card && npm start",
+    "install:host": "cd host && npm install",
     "start:host": "cd host && npm start",
+    "install:ui-kit": "cd ui-kit && npm install",
     "start:ui-kit": "cd ui-kit && npm start",
+    "install:user": "cd user && npm install",
     "start:user": "cd user && npm start",
+    "install:shared": "cd shared-library && npm install",
+    "install-all": "npm install && npm run install:auth && npm run install:card && npm run install:host && npm run install:ui-kit && npm run install:user && npm run install:shared",
     "start": "npm-run-all --parallel start:auth start:card start:ui-kit start:user start:host"
   },
   "keywords": [],

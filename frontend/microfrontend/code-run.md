@@ -10,11 +10,15 @@ git clone https://github.com/IgorBarbashov/sa-sprint-01-microfrontend-monolith-t
 ```
 
 ```
-git checkout sprint_1
+cd sa-sprint-01-microfrontend-monolith-to-microservices/frontend/microfrontend/
 ```
 
 ```
-cd frontend/microfrontend/
+git checkout sprint_1
+```
+
+```bash
+npm run install-all
 ```
 
 ```bash
